@@ -1,0 +1,128 @@
+body{
+  font-family: Verdana;
+  background: linear-gradient(#e0d6f5, #8533ff);
+}
+
+.container{
+  background-color: #f2f2f2;
+  margin-left: 50px;
+  width: 400px;
+  height: 400px;
+  font-size: 18px;
+  box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#formHeader {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.nameForm, input {
+  display: flex-wrap;
+  justify-content: space-around;
+}
+
+input{
+  border: 2px solid lightgrey;
+  width: 125px;
+  height: 25px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+input[name=firstname], input[name=lastname], input[name=phone], input[name=email] {
+ position: relative;
+ padding-left: 40px;
+}
+
+#user_image {
+  position: absolute;
+  z-index: 3;
+  height: 20px;
+  width: auto;
+  border-right: 1px solid lightgrey;
+  margin-top: 7px;
+  margin-left: 27px;
+  padding-right: 5px;
+}
+
+#phone_image, #email_image {
+  position: absolute;
+  z-index: 3;
+  height: 15px;
+  width: auto;
+  border-right: 1px solid lightgrey;
+  margin-top: 9px;
+  margin-left: 29px;
+  padding-right: 8px;
+}
+
+#country {
+  width: 130px;
+  height: 27px;
+  margin-left: 22px;
+  border: 0;
+  outline: 2px solid lightgrey;
+}
+
+#vertical{
+  position: absolute;
+  width: 3px; 
+}
+
+input[name=country] {
+  width: 120px;
+  height: 25px;
+  margin-bottom: 0px;
+}
+
+input[name=postcode] {
+  width: 70px;
+  height: 25px;
+  margin-bottom: 0px;
+}
+input[name=city] {
+  width: 105px;
+  height: 25px;
+  margin-bottom: 0px;
+}
+input[name=address] {
+  width: 352px;
+  height: 25px;
+  margin-top: 5px;
+}
+input[name=additional] {
+  width: 352px;
+  height: 50px;
+}
+
+input[name=lat], input[name=lng] {
+  width: 163px;
+  height: 25px;
+}
+
+#addressLink {
+  text-align: right;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 22px;
+  margin-left: 20px;
+  margin-top: 1px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 7px;
+}
+
+#addressLink:hover{
+  color: blue;
+}
+
+#submit{
+  width: 70px;
+}
+
+#submit:hover{
+  background-color: #b3b3b3;
+}
+
